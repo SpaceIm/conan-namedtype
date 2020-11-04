@@ -22,7 +22,7 @@ class NamedTypeConan(ConanFile):
     def _compilers_minimum_version(self):
         return {
             "gcc": "5",
-            "Visual Studio": "14",
+            "Visual Studio": "15",
             "clang": "3.4",
             "apple-clang": "5.1",
         }
